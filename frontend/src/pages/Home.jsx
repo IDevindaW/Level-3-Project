@@ -5,7 +5,7 @@ const Home = ({ user, error }) => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-20 px-6">
+      <div className="bg-linear-to-r from-gray-900 to-gray-800 text-white py-20 px-6">
         <div className="max-w-7xl mx-auto">
           {error && (
             <div className="mb-6 p-4 bg-red-500 text-white rounded-md">
